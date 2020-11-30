@@ -1,0 +1,38 @@
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+  }
+
+  .grid-item {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  }
+
+  .item1 {
+  grid-column: 1;
+  grid-row: 1;
+  }
+  .item2 {
+  grid-column: 2/ span 4;
+  grid-row: 1;
+  }
+p{
+  text-align: left;
+  font-size: 15px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+h4{
+  padding: 0;
+  text-align: left;
+}
+links{
+  font-size: 10px;
+  text-align: left;
+}
